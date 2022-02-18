@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Roboto+Condensed&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Roboto Mono', monospace , 'Crimson Pro', 'Roboto Condensed', sans-serif,
+    serif, 'Roboto', 'Helvetica Neue';
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container{
+    background:rgba(255, 255, 255, 0.192);
+display:flex;
+flex-direction: column;
+padding:6rem;
+width: 24rem;
+margin: 2rem;
+border-radius: 2rem;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width:100%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+margin-bottom: 1rem;
+}
+
+ul li a p{
+    margin-left: 2rem;
+}
+
+.card{
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+   
+  
+
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.card:hover{
+    transition: 0.9s;
+    transform: rotateX(180deg);
+}
